@@ -34,7 +34,7 @@ struct ContentView: View {
 
       Button(action: {
         guard let image = self.uiImage  else { return }
-        CustomAlbum.shared.save(image: image) { result in
+        CustomAlbum.shared.save(image) { result in
           switch result {
           case .success:
             self.showSuccessAlert = true
