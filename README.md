@@ -4,7 +4,7 @@ CustomAlbum automatically saves Image or Movie to app-specific album in Photos.
 
 ## Demo GIF
 
-<img alt="Custom Album Demo GIF" src="https://github.com/mtfum/CustomAlbum/blob/master/Demo.gif" width="80%">
+<div align="center"><img alt="Custom Album Demo GIF" src="https://github.com/mtfum/CustomAlbum/blob/master/Demo.gif" width="40%"></div>
 
  ## Install
 
