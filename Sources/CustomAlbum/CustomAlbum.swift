@@ -16,7 +16,7 @@ open class CustomAlbum {
   private let name: String
 
   public init() {
-    self.name = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String ?? ""
+    self.name = Bundle.main.infoDictionary?[kCFBundleNameKey as String] as! String
   }
 
   public func save(image: UIImage, completion: @escaping (Result<PHAsset, Swift.Error>) -> Void) {
