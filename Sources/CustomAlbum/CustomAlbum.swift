@@ -19,15 +19,15 @@ open class CustomAlbum {
     self.name = Bundle.main.infoDictionary?[kCFBundleNameKey as String] as! String
   }
 
-  public func save(image: UIImage, completion: @escaping (Result<PHAsset, Swift.Error>) -> Void) {
+  public func save(_ image: UIImage, completion: @escaping (Result<PHAsset, Swift.Error>) -> Void) {
     confirmAssetCollection() { [weak self] collection in
       self?.saveInAlbum(for: .image(image), at: collection, completion: completion)
     }
   }
 
-  public func save(at movieURL: URL, completion: @escaping (Result<PHAsset, Swift.Error>) -> Void) {
+  public func save(_ movie: URL, completion: @escaping (Result<PHAsset, Swift.Error>) -> Void) {
     confirmAssetCollection() { [weak self] collection in
-      self?.saveInAlbum(for: .movie(movieURL), at: collection, completion: completion)
+      self?.saveInAlbum(for: .movie(movie), at: collection, completion: completion)
     }
   }
 
