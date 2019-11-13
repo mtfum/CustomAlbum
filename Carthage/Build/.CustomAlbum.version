@@ -1,0 +1,10 @@
+{
+  "commitish" : "5694330bdd9453f1aab715bd98ece6d9e98c2060",
+  "iOS" : [
+    {
+      "name" : "CustomAlbum",
+      "hash" : "3375fed44829b4b974284dfd582349132054a1c13f547cd6296bd7a22dce69eb",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ]
+}
