@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CustomAlbum::CustomAlbum"
-               BuildableName = "CustomAlbum.framework"
-               BlueprintName = "CustomAlbum"
+               BlueprintIdentifier = "CustomAlbum::CustomAlbumPackageTests::ProductTarget"
+               BuildableName = "CustomAlbumPackageTests"
+               BlueprintName = "CustomAlbumPackageTests"
                ReferencedContainer = "container:CustomAlbum.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CustomAlbum::CustomAlbumTests"
-               BuildableName = "CustomAlbumTests.xctest"
-               BlueprintName = "CustomAlbumTests"
-               ReferencedContainer = "container:CustomAlbum.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -50,16 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "264DD1202371A0A000C685D4"
-            BuildableName = "CustomAlbumDemo.app"
-            BlueprintName = "CustomAlbumDemo"
-            ReferencedContainer = "container:CustomAlbum.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -70,9 +50,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CustomAlbum::CustomAlbum"
-            BuildableName = "CustomAlbum.framework"
-            BlueprintName = "CustomAlbum"
+            BlueprintIdentifier = "CustomAlbum::CustomAlbumPackageTests::ProductTarget"
+            BuildableName = "CustomAlbumPackageTests"
+            BlueprintName = "CustomAlbumPackageTests"
             ReferencedContainer = "container:CustomAlbum.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
